@@ -6,6 +6,8 @@
 
 int cnt = 0;
 
+// !.pio/build/esp32dev/firmware.bin
+
 U8G2_SSD1309_128X64_NONAME0_F_4W_HW_SPI u8g2(U8G2_R0, /* cs=*/5, /* dc=*/17, /* reset=*/16);
 
 void setup() {
